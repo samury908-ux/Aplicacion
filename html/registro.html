@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Digital</title>
+  <link rel="stylesheet" href="../Css/diseño.css">
+</head>
+<body>
+  <div class="app-container">
+    <header class="app-header">
+      <div class="header-top">
+        <h1>Mi Portafolio Digital</h1>
+        <span id="step-indicator" class="step-badge">Paso 1 de 10</span>
+      </div>
+      <div class="progress-bar">
+        <div id="progress-fill" class="progress-fill"></div>
+      </div>
+    </header>
+
+    <main id="wizard-content" class="wizard-content">
+      <!-- Renderizado dinámico por DOMUI -->
+    </main>
+
+    <footer class="app-footer">
+      <button id="btn-prev" class="btn btn-secondary" type="button">Anterior</button>
+      <button id="btn-reset" class="btn btn-danger" type="button" title="Borrar todo">Reiniciar</button>
+      <button id="btn-next" class="btn btn-primary" type="button">Siguiente</button>
+    </footer>
+  </div>
+
+  <script src="../js/registro.js"></script>
+</body>
+</html>
