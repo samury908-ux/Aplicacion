@@ -1,0 +1,21 @@
+{
+  "name": "Mi Portafolio Digital",
+  "short_name": "Portafolio",
+  "start_url": "/Aplicacion/html/registro.html",
+  "scope": "/Aplicacion/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/Aplicacion/icono.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/Aplicacion/icono.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
